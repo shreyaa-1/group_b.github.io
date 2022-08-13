@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+      
+    /* Designing all grid */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-color: rgb(167, 165, 165);
+        padding:1rem;
+        position:absolute;
+     width:100vw;
+        
+    }
+      
+   
+    .grid-container > div {
+        background-color: white;
+        text-align: center;
+        padding:1rem;
+    }
+      
+ 
+    .item1 {
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+    .item3 {
+      grid-row-start: 2;
+      grid-row-end: 2;
+  }
+
+   
+    .item1 h6{
+      text-align:left; 
+    }
+     
+    .search{
+      text-align:left;
+    }
+      
+
+ 
+    .item4{
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+      
+  .item2{
+    grid-column-start: 2;
+        grid-column-end: 2;
+
+  }
+
+  .item5{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2;
+  }
+
+
+  .filter{
+    width:20px;
+    height:20px;
+  }
+
+  .blue{
+    color:rgb(40, 189, 248);
+    font-weight:bold;
+  }
+
+  .check-boxes2{
+    text-align:left;
+  }
+
+  .check-boxes{ 
+      text-align: left;
+  }
+  .arrow {
+    border: solid rgb(40, 189, 248);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+   
+  }
+
+  .para{
+    text-align: left;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    
+  }
+
+
+ .clear {
+  padding:0.6rem;
+  border-radius:20px;
+  width:8rem;
+ color:rgb(40, 189, 248);
+ border:none;
+
+  }
+  .clear:hover {
+    box-shadow: 5px 5px grey;
+    transition: 0.3s;
+    transform: scale(1.05);
+  background-color:black;
+    color:white;
+  }
+
+  .grey{
+    color:grey;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .item-flex{
+display:flex;
+list-style-type: none;
+
+  }
+  .item-flex-1{
+    padding:1rem;
+  }
+  .intern{
+    text-align:left;
+    padding:1rem;
+    color:grey;
+    font-weight: bold;
+  }
+
+  .heading{
+  color:black;
+  }
+  
+.side-link{
+color: rgb(40, 189, 248);
+text-decoration: none;
+
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.logo{
+  color:white;
+  background-color: black;
+  border-radius:1rem;
+  padding:0.5rem;
+}
+
+.logo:hover{
+  box-shadow: 5px 5px grey;
+  transition: 0.3s;
+  transform: scale(1.05);
+background-color:white;
+  color:black;
+  border:2px solid blueviolet;
+
+}
+
+.detail{
+float:right;
+}
+
+.logoo{
+  width:3rem;
+  height:1rem;
+  
+}
+
+.logo{
+  float:right;
+}
+
+.place{
+  float:left;
+}
